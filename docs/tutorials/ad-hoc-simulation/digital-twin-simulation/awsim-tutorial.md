@@ -2,6 +2,8 @@
 
 !!! note
 
+    <!-- cspell: ignore Wojciech, Jaworski -->
+
     The binary is just a sample one for the initial testing, for AWF developers only. To get access, please contact Wojciech Jaworski on Autoware Discord. The official binary from TIER IV will be released in October.
 
 ## Hardware requirements
@@ -51,6 +53,8 @@
 
    4. reboot and check nvidia-smi
 
+      <!-- cspell:ignore Disp, Uncorr -->
+
       ```bash
       $ nvidia-smi
       Fri Aug 14 18:18:17 2020
@@ -79,7 +83,7 @@
       +-----------------------------------------------------------------------------+
       ```
 
-1. Vulkun Graphics Library (Skip if already installed)
+1. Vulkan Graphics Library (Skip if already installed)
 
    1. Update apt
 
